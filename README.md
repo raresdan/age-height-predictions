@@ -29,6 +29,7 @@ This project is a simple web application built using Flask, incorporating a Line
     py -m venv .env
     .env/Scripts/activate   # For Windows
     ```
+    ** You can use other virtual enviroments like Anaconda, but make sure all the libraries are instaled correctly
 
 4. Install dependencies:
 
