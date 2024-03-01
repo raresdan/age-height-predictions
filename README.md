@@ -5,7 +5,7 @@ This project is a simple web application built using Flask, incorporating a Line
 ## Features
 
 - **Flask Web Application:** Utilizes Flask to create a user-friendly web interface.
-- **Linear Model:** Implements a Linear Model using Scikit-learn, trained on a dataset in pickel format, containing age and height data of teenagers. Saved & Loaded the model using Joblib.
+- **Linear Model:** Implements a Linear Model using Scikit-learn, trained on a dataset in pickel format, containing age and height data of teenagers. Saved & loaded the model using Joblib.
 - **Interactive Plotting:** Incorporates Plotly to generate interactive plots, enabling users to input age parameters and visualize height estimations in real-time.
 - **User-friendly Interface:** Offers a seamless user experience with intuitive controls for age input and dynamic visualization of height estimations.
 
