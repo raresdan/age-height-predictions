@@ -1,6 +1,6 @@
 # 📈Age vs Height predicitor
 
-This project is a simple web application built using Flask, incorporating a Linear Model developed with Scikit-learn to estimate the height of teenagers based on their age. The application provides an interactive plotting feature using Plotly, allowing users to input a specific age and visualize the corresponding height estimation made by the model.
+This project is a simple web application built using Flask, incorporating a Linear Regression Model developed with Scikit-learn to estimate the height of teenagers based on their age. The application provides an interactive plotting feature using Plotly, allowing users to input a specific age and visualize the corresponding height estimation made by the model.
 
 ## Features
 
