@@ -5,9 +5,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 from joblib import load
 import uuid
+import kaleido
 
 app = Flask(__name__, static_folder='static')
-
 
 def floats_strings_to_np_array(floats_string):
     floats = np.array([float(x) for x in floats_string.split(',') if is_float(x)])
@@ -36,7 +36,6 @@ def hello_world():
         array_to_process = floats_strings_to_np_array(text)
         make_picture("static/AgesAndHeights.pkl", model, array_to_process, path)
         return render_template('index.html', href=path)
-
 
 def make_picture(training_data_filename, model, new_input_numpy_array, output_file):
     data = pd.read_pickle(training_data_filename)
